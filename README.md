@@ -1,22 +1,20 @@
 # Education Data Portal - Summary Endpoints
 
-These experimental summary endpoints extend the functionality of the Urban Institute's 
+These summary endpoints extend the functionality of the Urban Institute's 
 [Education Data Portal](https://educationdata.urban.org) application 
 programming interface (API). Where the original API allows researchers to 
 easily access millions of raw records for further analysis, the summary 
 endpoints provide rapid, customized access to aggregated 
 statistics in seconds for policymakers, journalists, and community groups. 
 
-Please note that these summary endpoints are a initial proof of concept, 
-and only six tables are currently available at this time. We hope to do a more 
-complete rollout in a future release. We appreciate all feedback, which can either 
+For more information, see the full Education Data Portal 
+[documentation page](https://educationdata.urban.org/documentation/index.html#summary_endpoints).
+
+We appreciate all feedback, which can either 
 be filed as an issue in this GitHub repository or sent to: educationdata@urban.org.
 
 For additional background, see our Data@Urban blog post from January 2019:
 [Democratizing Big Data to Support Proactive Policymaking](https://medium.com/@urban_institute/data-your-fingertips-democratizing-big-data-to-support-proactive-policymaking-fb7cc9d4a0aa).
-
-This work was supported in part by the 
-[Amazon Web Services (AWS) Imagine Grant Program](https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program/).
 
 ## User Guide
 
@@ -89,22 +87,6 @@ constructing a query:
   * [Schools](https://educationdata.urban.org/documentation/schools.html)
   * [School Districts](https://educationdata.urban.org/documentation/school-districts.html) 
   * [College-University](https://educationdata.urban.org/documentation/colleges.html)
-
-## Available Endpoints
-
-The endpoints currently available are:
-
-* `schools/ccd/enrollment`
-* `schools/crdc/ap-exams`
-* `schools/crdc/enrollment`
-* `schools/crdc/harassment-or-bullying/allegations`
-* `schools/crdc/restraint-and-seclusion/instances`
-* `college-university/ipeds/completions-cip-6`
-  - Note: this endpoint will only return data when `award_level` is specified 
-  as a `by` variable.
-
-Data for additional endpoints is currently being tested. This list will be 
-updated as new sources are added.
 
 ## Additional Examples
 
