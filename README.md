@@ -13,8 +13,11 @@ For more information, see the full Education Data Portal
 We appreciate all feedback, which can either 
 be filed as an issue in this GitHub repository or sent to: educationdata@urban.org.
 
-For additional background, see our Data@Urban blog post from January 2019:
+For additional background, see our:
+
+* Data@Urban blog post from January 2019:
 [Democratizing Big Data to Support Proactive Policymaking](https://medium.com/@urban_institute/data-your-fingertips-democratizing-big-data-to-support-proactive-policymaking-fb7cc9d4a0aa).
+* And an update from February 2021: [Building Summary Endpoints for the Education Data Portal](https://urban-institute.medium.com/building-summary-endpoints-for-the-education-data-portal-139eb7f34fc6)
 
 ## User Guide
 
